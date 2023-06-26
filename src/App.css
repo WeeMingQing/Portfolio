@@ -1,0 +1,509 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app_main_container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.app_main_container .nav_bar {
+  display: flex;
+  height: 5rem;
+  background: white;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app_main_container .nav_bar .nav_bar_name {
+  font-size: 1.8rem;
+  font-weight: 800;
+  word-spacing: -1px;
+  letter-spacing: -1px;
+  color: black;
+  max-width: fit-content;
+}
+
+.main_header_buttons_container .app_bar_menu_btn {
+  display: none;
+  width: 3rem;
+  height: 3rem;
+  color: black;
+}
+
+.main_container_website_link {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_container_background_animation {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.nav_bar_buttons_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: transparent;
+  background-color: transparent;
+}
+
+.nav_bar_buttons_container .nav_bar_button {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_bar_button_icon {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+.nav_bar_progression_bar {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.nav_bar_progression_bar .smooth_progress {
+  transition: width 0.5ms ease;
+  -webkit-transition: width 0.5ms ease;
+  -moz-transition: width 0.5ms ease;
+  -ms-transition: width 0.5ms ease;
+  -o-transition: width 0.5ms ease;
+}
+
+.container_separator {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main_header_buttons_container {
+  box-sizing: border-box;
+  display: flex;
+  height: 4rem;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding:0 1%;
+}
+
+.main_header_buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main_header_buttons .header_button_text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+
+.main_header_buttons .main_header_button {
+  box-sizing: border-box;
+  height: 4.2rem;
+}
+
+.main_header_button.focused {
+  border-bottom: 2px solid blue;
+}
+
+.main_header_button.focused .header_button_text {
+  color: blue;
+}
+
+.main_container {
+  width: 100%;
+  justify-content: center;
+}
+
+.main_container .intro_details_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  width: 40%;
+  height: 40%;
+  z-index: 10;
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 2rem;
+  text-align: center;
+  box-shadow: rgb(255, 255, 255) 0px 2px 4px 0px,
+    rgb(255, 255, 255) 0px 2px 16px 0px;
+}
+
+.main_container .intro_details_container h1 {
+  color: white;
+  font-size: xx-large;
+}
+
+.main_container .intro_details_container span {
+  width: 2px;
+  height: 24px;
+  background: white;
+  margin: 0 0.5rem;
+}
+
+.main_container
+  .intro_details_container
+  .MuiTouchRipple-root.css-8je8zh-MuiTouchRipple-root {
+  display: none;
+}
+
+.tech_stack_img_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 1rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.tech_stack_img_container h5 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.main_container .tech_stack_main_container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(187, 201, 219, 0.25);
+  margin: 0;
+  padding: 0;
+}
+
+.tech_stack_main_container .tech_stack_container {
+  width: fit-content;
+  margin-bottom: 1rem;
+  width: 50%;
+  align-items: stretch;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+
+.tech_stack_main_container .tech_stack_container h2 {
+  font-weight: 550;
+}
+
+.tech_stack_main_container .tech_stack_container h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.tech_stack_img_container .tech_stack_icon {
+  width: 40px;
+  height: 40px;
+}
+
+.tech_stack_special_icon {
+  width: 37px;
+  height: 37px;
+  margin: 1.56px;
+}
+
+.projects_main_container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.projects_main_container .projects_card {
+  display: flex;
+  width: 90%;
+  min-height: 100%;
+  height: 90%;
+  margin-bottom: 2rem;
+  min-width: 320px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.projects_icon {
+  color: white;
+}
+
+.projects_special_icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.projects_main_container
+  .projects_card
+  .MuiCardMedia-root.MuiCardMedia-media.MuiCardMedia-img.css-1pic84j-MuiCardMedia-root {
+  flex: 1;
+  object-fit: cover;
+}
+
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-lg-6.css-f0xsrb-MuiGrid-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects_main_container .projects_card .projects_img_container {
+  margin-bottom: 2rem;
+  border-bottom: 0.5px solid rgba(101, 101, 101, 0.747);
+}
+
+.projects_main_container .projects_card .procrastinate {
+  width: 26%;
+  height: 60%;
+}
+
+.projects_main_container .projects_card .procrastinate_border {
+  border-top: 0.5px solid rgba(101, 101, 101, 0.747);
+}
+
+.projects_card .card_icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.projects_card .card_actions_component {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  border-top: 0.5px solid rgb(0, 0, 0);
+}
+
+.projects_card .card_actions_component .card_actions_component_main_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects_grid_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects_button_component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.procrastinate_img {
+  display: flex;
+  justify-content: center;
+  background: grey;
+}
+
+.proceed_to_site_btn {
+  display: flex;
+  justify-content: center;
+  background: grey;
+}
+
+.experience_main_container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(187, 201, 219, 0.25);
+  padding-bottom: 7rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.end_intro_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wave_bg_content h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  margin: 0;
+}
+
+.end_intro_list {
+  display: flex;
+  direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.end_intro_list .MuiTouchRipple-root.css-8je8zh-MuiTouchRipple-root {
+  display: none;
+}
+
+.end_intro_list span {
+  width: 2px;
+  height: 24px;
+  background: white;
+  margin: 0 0.5rem;
+}
+
+.end_intro_list_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.end_intro_list_button_icon {
+  color: white;
+  width: 40px;
+  height: 40px;
+}
+
+.wave_bg_content {
+  position: absolute;
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+#end_container {
+  background: rgba(187, 201, 219, 0.25);
+  padding: 0;
+  margin: 0;
+}
+
+.MuiPopover-root.MuiMenu-root.MuiModal-root.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root .MuiPaper-root.MuiMenu-paper.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  width: 200px;
+}
+
+.MuiPopover-root.MuiMenu-root.MuiModal-root.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root .MuiPaper-root.MuiMenu-paper.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper .menu_btn.focused{
+  background: #84a7ff;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1600px) {
+  .main_container .intro_details_container {
+    width: 60%;
+  }
+  .tech_stack_main_container .tech_stack_container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1200px) { 
+  .projects_main_container .projects_main_grid_container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 899px) { 
+  .projects_main_container .projects_main_grid_container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .tech_stack_main_container .tech_stack_container {
+    width: 80%;
+  }
+
+  .projects_main_container .projects_card {
+    width: 90%;
+  }
+
+  .app_main_container .nav_bar .nav_bar_name {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 737px) {
+  .main_container .intro_details_container {
+    width: 80%;
+  }
+
+  .tech_stack_main_container .tech_stack_container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 590px) { 
+  .main_header_buttons {
+    display: none;
+  }
+
+  .main_header_buttons_container .app_bar_menu_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
