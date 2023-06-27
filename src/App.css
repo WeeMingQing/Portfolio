@@ -99,6 +99,10 @@
   justify-content: center;
 }
 
+.nav_bar_buttons_container .nav_bar_button .MuiTouchRipple-root.css-w0pj6f {
+  display: none;
+}
+
 .nav_bar_button_icon {
   width: 40px;
   height: 40px;
