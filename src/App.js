@@ -71,7 +71,7 @@ function App() {
       setFocusBtn("");
     } else if (scrolled < document.getElementById("skills").offsetTop - 90) {
       setFocusBtn("aboutMe");
-    } else if (scrolled < document.getElementById("projects").offsetTop - 130) {
+    } else if (scrolled < document.getElementById("projects").offsetTop - 150) {
       setFocusBtn("skills");
     } else if (
       scrolled <
