@@ -420,6 +420,10 @@
   justify-content: center;
 }
 
+.end_intro_list_btn .MuiTouchRipple-root.css-w0pj6f {
+  display: none;
+}
+
 .end_intro_list_button_icon {
   color: white;
   width: 40px;
