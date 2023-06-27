@@ -627,7 +627,7 @@ function App() {
                   <Box className="projects_button_component">
                     <Button
                       size="small"
-                      href="https://github.com/WeeMingQing/WaveScan_FE"
+                      href="https://github.com/WeeMingQing/Portfolio"
                       target="_blank"
                       rel="noreferrer"
                     >
