@@ -17,7 +17,7 @@ import {
 } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import ContactPageIcon from '@mui/icons-material/ContactPage';
+import ContactPageIcon from "@mui/icons-material/ContactPage";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 import WaveBackgroundAnimation from "./Components/WaveBackgroundAnimation";
 import TimelineBox from "./Components/TimelineBox";
@@ -264,7 +264,7 @@ function App() {
                 rel="noreferrer"
                 className="nav_bar_button"
               >
-                <GitHubIcon className="nav_bar_button_icon" id="github_icon"/>
+                <GitHubIcon className="nav_bar_button_icon" id="github_icon" />
               </ListItemButton>
               <span></span>
               <ListItemButton
@@ -463,7 +463,12 @@ function App() {
                   className="projects_img_container"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="div" fontWeight={"600"}>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    fontWeight={"600"}
+                  >
                     SingaporeStudentPortal
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
@@ -518,7 +523,12 @@ function App() {
                   className={`${"projects_img_container"} ${"procrastinate"}`}
                 />
                 <CardContent className="procrastinate_border">
-                  <Typography gutterBottom variant="h5" component="div" fontWeight={"600"}>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    fontWeight={"600"}
+                  >
                     !Procrastinate
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
@@ -560,7 +570,12 @@ function App() {
                   className="projects_img_container"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="div" fontWeight={"600"}>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    fontWeight={"600"}
+                  >
                     WaveScan
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
@@ -609,12 +624,17 @@ function App() {
                   className="projects_img_container"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="div" fontWeight={"600"}>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    fontWeight={"600"}
+                  >
                     Portfolio
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    The current website that you are viewing now. It compiles and
-                    showcases my projects and journey.
+                    The current website that you are viewing now. It compiles
+                    and showcases my projects and journey.
                   </Typography>
                 </CardContent>
                 <CardActions className="card_actions_component">
@@ -624,11 +644,14 @@ function App() {
                   </Box>
                   <Box className="projects_button_component">
                     <Button
+                      variant="contained"
                       size="small"
+                      className="proceed_to_site_btn"
                       href="https://github.com/WeeMingQing/Portfolio"
                       target="_blank"
                       rel="noreferrer"
                     >
+                      <ExitToAppIcon className="projects_icon" />
                       <Typography variant="h7" textAlign={"center"}>
                         Code
                       </Typography>
@@ -645,7 +668,12 @@ function App() {
                   className="projects_img_container"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="div" fontWeight={"600"}>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    fontWeight={"600"}
+                  >
                     ShoppingSiteFE
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
@@ -761,7 +789,10 @@ function App() {
               rel="noreferrer"
               className="end_intro_list_btn"
             >
-              <GitHubIcon className="end_intro_list_button_icon" id="github_icon"/>
+              <GitHubIcon
+                className="end_intro_list_button_icon"
+                id="github_icon"
+              />
             </ListItemButton>
             <span></span>
             <ListItemButton
