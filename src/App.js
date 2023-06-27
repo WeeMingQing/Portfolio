@@ -67,8 +67,6 @@ function App() {
     setAnchorEl(false);
   };
   function handleScrollPosition(scrolled) {
-    console.log(scrolled);
-    console.log(document.getElementById("experience").offsetTop - 260);
     if (scrolled < 400) {
       setFocusBtn("");
     } else if (scrolled < document.getElementById("skills").offsetTop - 90) {

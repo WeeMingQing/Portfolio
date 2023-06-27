@@ -22,7 +22,7 @@
   flex-direction: column;
   width: 46em;
   max-width: 46em;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   height: fit-content;
   padding: 0;
@@ -201,6 +201,16 @@
 .panel_container
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.timeline_main_container.css-1elwnq4-MuiPaper-root-MuiAccordion-root .MuiButtonBase-root.MuiAccordionSummary-root.MuiAccordionSummary-gutters.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root .MuiAccordionSummary-content.MuiAccordionSummary-contentGutters.css-o4b71y-MuiAccordionSummary-content {
   margin: 0;
+}
+
+.timeline_main_container .MuiButtonBase-root.MuiAccordionSummary-root.MuiAccordionSummary-gutters.css-1iji0d4 .MuiAccordionSummary-content.MuiAccordionSummary-contentGutters.css-17o5nyn {
+  margin: 0;
+}
+
+@media screen and (max-width: 855px) {
+  .timeline_main_container {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 737px) {
