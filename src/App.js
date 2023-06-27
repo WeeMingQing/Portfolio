@@ -264,7 +264,7 @@ function App() {
                 rel="noreferrer"
                 className="nav_bar_button"
               >
-                <GitHubIcon className="nav_bar_button_icon" />
+                <GitHubIcon className="nav_bar_button_icon" id="github_icon"/>
               </ListItemButton>
               <span></span>
               <ListItemButton
@@ -761,7 +761,7 @@ function App() {
               rel="noreferrer"
               className="end_intro_list_btn"
             >
-              <GitHubIcon className="end_intro_list_button_icon" />
+              <GitHubIcon className="end_intro_list_button_icon" id="github_icon"/>
             </ListItemButton>
             <span></span>
             <ListItemButton

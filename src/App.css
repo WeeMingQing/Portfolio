@@ -93,8 +93,8 @@
 
 .nav_bar_buttons_container .nav_bar_button {
   display: flex;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   align-items: center;
   justify-content: center;
 }
@@ -103,10 +103,15 @@
   display: none;
 }
 
-.nav_bar_button_icon {
-  width: 40px;
-  height: 40px;
+.nav_bar_button .nav_bar_button_icon {
+  width: 35px;
+  height: 35px;
   color: white;
+}
+
+.nav_bar_button #github_icon {
+  width: 30px;
+  height: 30px;
 }
 
 .nav_bar_progression_bar {
@@ -137,7 +142,7 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-  padding:0 1%;
+  padding: 0 1%;
 }
 
 .main_header_buttons {
@@ -196,7 +201,7 @@
 
 .main_container .intro_details_container span {
   width: 2px;
-  height: 24px;
+  height: 35px;
   background: white;
   margin: 0 0.5rem;
 }
@@ -409,7 +414,7 @@
 
 .end_intro_list span {
   width: 2px;
-  height: 24px;
+  height: 35px;
   background: white;
   margin: 0 0.5rem;
 }
@@ -424,10 +429,15 @@
   display: none;
 }
 
-.end_intro_list_button_icon {
+.end_intro_list_btn .end_intro_list_button_icon {
   color: white;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
+}
+
+.end_intro_list_btn #github_icon {
+  width: 30px;
+  height: 30px;
 }
 
 .wave_bg_content {
@@ -449,16 +459,20 @@
   margin: 0;
 }
 
-.MuiPopover-root.MuiMenu-root.MuiModal-root.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root .MuiPaper-root.MuiMenu-paper.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+.MuiPopover-root.MuiMenu-root.MuiModal-root.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root
+  .MuiPaper-root.MuiMenu-paper.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
   width: 200px;
 }
 
-.MuiList-root.MuiList-padding.MuiMenu-list.css-r8u8y9 .menu_btn.focused.css-1km1ehz {
+.MuiList-root.MuiList-padding.MuiMenu-list.css-r8u8y9
+  .menu_btn.focused.css-1km1ehz {
   background: #84a7ff;
   font-weight: 560;
 }
 
-.MuiPopover-root.MuiMenu-root.MuiModal-root.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root .MuiPaper-root.MuiMenu-paper.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper .menu_btn.focused.css-1km1ehz {
+.MuiPopover-root.MuiMenu-root.MuiModal-root.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root
+  .MuiPaper-root.MuiMenu-paper.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper
+  .menu_btn.focused.css-1km1ehz {
   background: #84a7ff;
   font-weight: 560;
 }
@@ -472,13 +486,13 @@
   }
 }
 
-@media screen and (max-width: 1200px) { 
+@media screen and (max-width: 1200px) {
   .projects_main_container .projects_main_grid_container {
     width: 90%;
   }
 }
 
-@media screen and (max-width: 899px) { 
+@media screen and (max-width: 899px) {
   .projects_main_container .projects_main_grid_container {
     width: 80%;
   }
@@ -508,7 +522,7 @@
   }
 }
 
-@media screen and (max-width: 590px) { 
+@media screen and (max-width: 590px) {
   .main_header_buttons {
     display: none;
   }
@@ -519,4 +533,3 @@
     justify-content: center;
   }
 }
-
