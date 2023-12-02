@@ -303,7 +303,7 @@ function App() {
             marginRight={"0.5rem"}
             marginBottom={"2rem"}
           >
-            I'm a year 2 Computer Science Student at the National University of
+            I'm a year 3 Computer Science Student at the National University of
             Singapore (NUS).
           </Typography>
           <Typography
