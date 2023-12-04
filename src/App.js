@@ -703,6 +703,48 @@ function App() {
                 </CardActions>
               </Card>
             </Grid>
+            <Grid item xs={12} md={6} className="projects_grid_container">
+              <Card className="projects_card">
+                <CardMedia
+                  component="img"
+                  image="./ManaGease.png"
+                  className="projects_img_container"
+                />
+                <CardContent>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    fontWeight={"600"}
+                  >
+                    ManaGease
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                  Desktop app for managing full time staff in any workplace, optimized for use via a Command Line Interface
+                  </Typography>
+                </CardContent>
+                <CardActions className="card_actions_component">
+                  <Box className="card_actions_component_main_container">
+                    <img src="./java.png" className="card_icon" />
+                  </Box>
+                  <Box className="projects_button_component">
+                    <Button
+                      variant="contained"
+                      size="small"
+                      className="proceed_to_site_btn"
+                      href="https://github.com/WeeMingQing/tp"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <ExitToAppIcon className="projects_icon" />
+                      <Typography variant="h7" textAlign={"center"}>
+                        Code
+                      </Typography>
+                    </Button>
+                  </Box>
+                </CardActions>
+              </Card>
+            </Grid>
           </Grid>
         </Box>
         <Box className="container_separator">
